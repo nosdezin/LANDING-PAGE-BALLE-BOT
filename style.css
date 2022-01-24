@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap");
+
+/* font-family: "Sarala", sans-serif;
+font-family: "Righteous", cursive; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+}
+
+/* CABEÇALHO / HEADER */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 24px;
+}
+
+header img {
+  height: 72px;
+}
+
+header nav {
+  display: flex;
+  gap: 32px;
+}
+
+header nav a {
+  font-family: "Sarala", sans-serif;
+  color: #fff2e7;
+  font-weight: 400;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+header nav a:hover {
+  color: rgba(236, 214, 196, 0.53);
+}
+
+/* CONTEUDO / MAIN */
+
+main {
+  border-top: 0.4px solid #fff2e7;
+  margin-bottom: 48px;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.conteudo-principal div {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudo-principal h1 {
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: #fff2e7;
+}
+
+.conteudo-principal h2 {
+  font-family: "Sarala", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ecd6c4;
+}
+
+.conteudo-principal button {
+  background-color: #ecd6c4;
+  width: 180px;
+  height: 60px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  font-size: 24;
+  font-family: "Sarala", sans-serif;
+  color: #2f2325;
+  font-weight: 400;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.conteudo-principal button:hover {
+  background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteudo-principal img {
+  height: 430px;
+}
+
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.conteudo-secundario h3 {
+  border-top: 0.4px solid #fff2e7;
+  padding-top: 48px;
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff2e7;
+  margin-bottom: 16px;
+}
+
+.conteudo-secundario p {
+  font-family: "Sarala", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #ecd6c4;
+}
+
+/* FOOTER */
+
+footer {
+  border-top: 0.4px solid #fff2e7;
+  padding: 32px;
+}
+
+footer img {
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+}
